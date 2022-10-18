@@ -3,7 +3,7 @@ using CommunityToolkit.Maui.Sample.ViewModels.Extensions;
 
 namespace CommunityToolkit.Maui.Sample.Pages.Extensions;
 
-public partial class OnScreenSizeExtensionPage: BasePage<OnScreenSizeExtensionViewModel>
+public partial class OnScreenSizeExtensionPage : BasePage<OnScreenSizeExtensionViewModel>
 {
 	public OnScreenSizeExtensionPage(OnScreenSizeExtensionViewModel viewModel)
 	: base(viewModel)
@@ -14,7 +14,7 @@ public partial class OnScreenSizeExtensionPage: BasePage<OnScreenSizeExtensionVi
 	protected override void OnAppearing()
 	{
 		mappings.ItemsSource = OnScreenSizeManager.Current.Mappings;
-        
+
 		base.OnAppearing();
 	}
 }

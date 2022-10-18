@@ -5,7 +5,7 @@ namespace CommunityToolkit.Maui.Sample.ViewModels.Extensions;
 
 public sealed partial class OnScreenSizeExtensionViewModel : BaseViewModel
 {
-	 readonly ILauncher launcher;
+	readonly ILauncher launcher;
 
 	public OnScreenSizeExtensionViewModel(ILauncher launcher)
 	{
